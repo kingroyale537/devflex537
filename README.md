@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PortfolioMaker 👨‍💻
+
+PortfolioMaker is a full-stack, neubrutalistic, high-performance web application designed to automatically generate stunning developer portfolios in minutes. 
+
+It scrapes stats directly from GitHub and LinkedIn, writes AI-powered career summaries, compiles download-ready PDF resumes, and supports manual inputs for developers who want to showcase custom projects and experiences without GitHub.
+
+---
+
+## Key Features
+
+*   **Real-time Scrapers**: Direct GitHub GraphQL and LinkedIn integrations to fetch experience timeline, repositories, language complexity metrics, and contribution charts.
+*   **AI Summary Engine**: Google Gen AI summaries to construct meta SEO descriptors, tags, and personalized first-person profiles.
+*   **Manual Portfolio Creator**: Step-by-step neubrutalistic forms to create, store, and edit portfolios manually.
+*   **React-PDF Resumes**: DynamicMonth translation matching brand templates that download instantly.
+*   **Interactive Neubrutalist UI**: Drag-to-compare sliders, particle Canvas sparkles, animated timeline grids, and loaders.
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 1. Setup Environment
+Rename `.env.example` to `.env.local` and add your keys:
+```env
+GITHUB_TOKEN=your_tokens_comma_separated
+GEMINI_API_KEY=your_gemini_api_key
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run Development Server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the homepage.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Git Operations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To link this clean, reinitialized local repository to your remote GitHub page:
+```bash
+git remote add origin https://github.com/rishikeshrai/portfoliomaker.git
+git branch -M main
+git push -u origin main
+```
