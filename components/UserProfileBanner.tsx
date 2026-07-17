@@ -19,7 +19,7 @@ export const UserProfileBanner = ({ user }: { user: Profile | null }) => {
         setBanner({
           show: true,
           text: `${user.name}, enhance your profile by connecting your LinkedIn account!`,
-          link: "https://docs.portfoliomaker.io/#/02.-Integrations-Overview",
+          link: "https://docs.devflex.io/#/02.-Integrations-Overview",
           linkText: "Learn how",
           bannerKey: `linkedin-banner-${user.username}`,
         });

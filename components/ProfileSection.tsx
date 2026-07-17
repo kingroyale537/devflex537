@@ -145,10 +145,10 @@ export async function ProfileSection({
                           title={tooltipText}
                           className="w-full h-full flex items-center justify-center"
                         >
-                          {account.url.includes("portfoliomaker.io") ? (
+                          {account.url.includes("devflex.io") ? (
                             <Image
                               src="/images/logo.png"
-                              alt="PortfolioMaker"
+                              alt="DevFlex"
                               width={24}
                               height={24}
                               className="object-contain"

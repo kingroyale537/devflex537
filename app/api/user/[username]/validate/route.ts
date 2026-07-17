@@ -39,7 +39,7 @@ export async function GET(
 
     const headers: Record<string, string> = {
       Accept: "application/vnd.github.v3+json",
-      "User-Agent": "portfoliomaker-clone-validation",
+      "User-Agent": "devflex-clone-validation",
     };
     if (token) {
       headers["Authorization"] = `token ${token}`;

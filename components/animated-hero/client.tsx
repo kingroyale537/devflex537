@@ -165,7 +165,7 @@ export default function AnimatedHeroClient() {
           <Github className="w-5 h-5 text-white" /> Generate Portfolio
         </button>
         <Link
-          href="https://github.com/rishikeshrai/portfoliomaker"
+          href="https://github.com/rishikeshrai/devflex"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white border text-gray-700 border-gray-200 px-8 py-3.5 rounded-full text-base font-medium hover:bg-gray-50 transition-colors flex items-center justify-center gap-2 shadow-sm"

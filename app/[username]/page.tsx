@@ -35,7 +35,7 @@ export default async function Page({
         <Link href="/" className="block mb-4">
           <Image
             src="/images/logo-full.png"
-            alt="PortfolioMaker"
+            alt="DevFlex"
             width={140}
             height={50}
             className="h-10 w-auto brightness-110"

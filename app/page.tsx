@@ -25,7 +25,7 @@ interface Profile {
 async function getProfiles(): Promise<Profile[]> {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/rishikeshrai/portfoliomaker/refs/heads/data/docs/data/processed_users.json",
+      "https://raw.githubusercontent.com/rishikeshrai/devflex/refs/heads/data/docs/data/processed_users.json",
       {
         next: { revalidate: 3600 },
       }
@@ -52,7 +52,7 @@ const FALLBACK_CONTRIBUTORS: Profile[] = [
     name: "Rishikesh Rai",
     username: "rishikeshrai",
     avatar_url: "https://api.dicebear.com/7.x/initials/svg?seed=Rishikesh%20Rai",
-    bio: "Creator of PortfolioMaker, Full Stack Engineer",
+    bio: "Creator of DevFlex, Full Stack Engineer",
     followers: 120,
     following: 80,
     public_repos: 45,
@@ -62,11 +62,11 @@ const FALLBACK_CONTRIBUTORS: Profile[] = [
 async function getContributors(): Promise<Profile[]> {
   try {
     const response = await fetch(
-      "https://api.github.com/repos/rishikeshrai/portfoliomaker/contributors",
+      "https://api.github.com/repos/rishikeshrai/devflex/contributors",
       {
         headers: {
           Accept: "application/json",
-          "User-Agent": "portfoliomaker-clone",
+          "User-Agent": "devflex-clone",
         },
         next: {
           revalidate: 3600,
@@ -101,7 +101,7 @@ async function getContributors(): Promise<Profile[]> {
             {
               headers: {
                 Accept: "application/json",
-                "User-Agent": "portfoliomaker-clone",
+                "User-Agent": "devflex-clone",
               },
               next: {
                 revalidate: 3600,
@@ -187,7 +187,7 @@ export default async function Home() {
                 Before & After
               </h2>
               <p className="text-xl text-gray-600">
-                See the difference PortfolioMaker makes to your portfolio
+                See the difference DevFlex makes to your portfolio
               </p>
             </div>
             <div className="flex justify-center">
@@ -215,7 +215,7 @@ export default async function Home() {
                   </h1>
                   <p className="text-xl text-gray-600">
                     Staring down a blank screen, dreading the hours it&apos;ll
-                    take to build a portfolio? Not anymore! PortfolioMaker is your
+                    take to build a portfolio? Not anymore! DevFlex is your
                     coding BFF, turning your messy GitHub profile into a sleek,
                     professional bio easily, not marathons.
                   </p>
@@ -291,7 +291,7 @@ export default async function Home() {
                 Our Contributors
               </h2>
               <p className="text-xl text-gray-600">
-                Meet the amazing developers who have contributed to making PortfolioMaker
+                Meet the amazing developers who have contributed to making DevFlex
                 better
               </p>
             </div>
@@ -321,7 +321,7 @@ export default async function Home() {
                 </h2>
                 <p className="text-xl text-gray-600">
                   Check out the latest developers who created their portfolios
-                  using PortfolioMaker
+                  using DevFlex
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">

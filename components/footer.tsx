@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="flex items-center gap-2">
                 <Image
                   src="/images/logo-white.png"
-                  alt="portfoliomaker.io"
+                  alt="devflex.io"
                   width={120}
                   height={54}
                   className="w-auto h-12"
@@ -31,7 +31,7 @@ const Footer = () => {
               Effortless Portfolios for Developers
             </p>
             <p className="text-[#F3F3F3] text-sm opacity-60 mt-1">
-              contact@portfoliomaker.io
+              contact@devflex.io
             </p>
           </div>
 

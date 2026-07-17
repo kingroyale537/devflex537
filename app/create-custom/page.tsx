@@ -194,7 +194,7 @@ export default function CreateCustomPortfolio() {
           <Link href="/" className="flex items-center gap-2">
             <Image
               src="/images/logo-full.png"
-              alt="PortfolioMaker"
+              alt="DevFlex"
               width={100}
               height={30}
               className="h-8 w-auto brightness-110"

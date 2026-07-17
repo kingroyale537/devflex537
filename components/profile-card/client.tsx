@@ -41,7 +41,7 @@ export default function ProfileCardClient({
         <p className="text-gray-600 text-sm mb-2 truncate">@{username}</p>
         <p className="text-gray-600 text-sm mb-3 line-clamp-2 h-10">{bio}</p>
 
-        <a href={`/${username}?utm_source=portfoliomaker_io&utm_medium=contributor&utm_campaign=portfoliomaker_io`}>
+        <a href={`/${username}?utm_source=devflex_io&utm_medium=contributor&utm_campaign=devflex_io`}>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

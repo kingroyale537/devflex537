@@ -24,7 +24,7 @@ export default function NextContributorCard({ index }: { index: number }) {
         <h3 className="text-lg font-semibold mb-1 text-black">You?</h3>
         <p className="text-gray-600 text-sm mb-2">@nextcontributor</p>
         <p className="text-gray-600 text-sm mb-3 line-clamp-2 h-10">
-          Join us and help make PortfolioMaker even better!
+          Join us and help make DevFlex even better!
         </p>
         <motion.button
           whileHover={{ scale: 1.05 }}

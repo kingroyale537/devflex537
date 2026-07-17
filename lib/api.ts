@@ -81,11 +81,11 @@ export const addUserToSupabase = async (
     return;
   }
 
-  const url = `${supabaseUrl}/functions/v1/portfoliomaker-io`;
+  const url = `${supabaseUrl}/functions/v1/devflex-io`;
   const mappedData = {
     name: user.username,
     "full name": user.name,
-    "portfolio profile": `https://portfoliomaker.io/${user.username}`,
+    "devflex profile": `https://devflex.io/${user.username}`,
     github: `https://github.com/${user.username}`,
   };
 

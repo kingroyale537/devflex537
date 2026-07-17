@@ -1,6 +1,6 @@
-# PortfolioMaker 👨‍💻
+# DevFlex 👨‍💻
 
-PortfolioMaker is a full-stack, neubrutalistic, high-performance web application designed to automatically generate stunning developer portfolios in minutes. 
+DevFlex is a full-stack, neubrutalistic, high-performance web application designed to automatically generate stunning developer portfolios in minutes. 
 
 It scrapes stats directly from GitHub and LinkedIn, writes AI-powered career summaries, compiles download-ready PDF resumes, and supports manual inputs for developers who want to showcase custom projects and experiences without GitHub.
 
@@ -11,7 +11,7 @@ It scrapes stats directly from GitHub and LinkedIn, writes AI-powered career sum
 *   **Real-time Scrapers**: Direct GitHub GraphQL and LinkedIn integrations to fetch experience timeline, repositories, language complexity metrics, and contribution charts.
 *   **AI Summary Engine**: Google Gen AI summaries to construct meta SEO descriptors, tags, and personalized first-person profiles.
 *   **Manual Portfolio Creator**: Step-by-step neubrutalistic forms to create, store, and edit portfolios manually.
-*   **React-PDF Resumes**: DynamicMonth translation matching brand templates that download instantly.
+*   **React-PDF Resumes**: Dynamic translation matching brand templates that download instantly.
 *   **Interactive Neubrutalist UI**: Drag-to-compare sliders, particle Canvas sparkles, animated timeline grids, and loaders.
 
 ---
@@ -43,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the homepage.
 
 To link this clean, reinitialized local repository to your remote GitHub page:
 ```bash
-git remote add origin https://github.com/rishikeshrai/portfoliomaker.git
+git remote add origin https://github.com/rishikeshrai/devflex.git
 git branch -M main
 git push -u origin main
 ```

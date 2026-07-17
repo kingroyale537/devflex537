@@ -13,13 +13,13 @@ export async function generateMetadata({
   return {
     title: user?.seo?.title
       ? user.seo.title
-      : `PortfolioMaker - Build Stunning Developer Portfolios in Minutes`,
+      : `DevFlex - Build Stunning Developer Portfolios in Minutes`,
     description: user?.seo?.description
       ? user.seo.description
       : `Passionate developer skilled in modern technologies, building and learning through real-world projects and daily challenges.`,
     keywords: user?.seo?.keywords
       ? user.seo.keywords
-      : "Developer Portfolio, PortfolioMaker, Software Engineer, Projects, Resume, GitHub Showcase",
+      : "Developer Portfolio, DevFlex, Software Engineer, Projects, Resume, GitHub Showcase",
     openGraph: {
       images: user?.avatar_url,
     },

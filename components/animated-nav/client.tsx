@@ -21,7 +21,7 @@ export default function AnimatedNavClient() {
             width={100}
             height={30}
             src="/images/logo-full.png"
-            alt="PortfolioMaker"
+            alt="DevFlex"
             className="hover:brightness-110 transition-all w-auto h-8"
           />
         </motion.div>
@@ -57,7 +57,7 @@ export default function AnimatedNavClient() {
           transition={{ delay: 0.5 }}
         >
           <iframe
-            src="https://ghbtns.com/github-btn.html?user=rishikeshrai&repo=portfoliomaker&type=star&count=true&size=large"
+            src="https://ghbtns.com/github-btn.html?user=rishikeshrai&repo=devflex&type=star&count=true&size=large"
             frameBorder="0"
             scrolling="0"
             width="170"

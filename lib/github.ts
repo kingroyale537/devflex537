@@ -29,7 +29,7 @@ const getGithubHeaders = () => {
   const token = getGithubToken();
   const headers: Record<string, string> = {
     Accept: "application/vnd.github.v3+json",
-    "User-Agent": "portfoliomaker-clone",
+    "User-Agent": "devflex-clone",
   };
   if (token) {
     headers["Authorization"] = `token ${token}`;
@@ -99,7 +99,7 @@ export const getSocialFromReadme = async (username: string): Promise<Record<stri
     const token = getGithubToken();
     const headers: Record<string, string> = {
       Accept: "application/vnd.github+json",
-      "User-Agent": "portfoliomaker-clone",
+      "User-Agent": "devflex-clone",
     };
     if (token) {
       headers["Authorization"] = `Bearer ${token}`;
@@ -279,7 +279,7 @@ export const fetchUserProfile = async (username: string): Promise<Partial<Profil
     const token = getGithubToken();
     const headers: Record<string, string> = {
       "Content-Type": "application/json",
-      "User-Agent": "portfoliomaker-clone",
+      "User-Agent": "devflex-clone",
     };
     if (token) {
       headers["Authorization"] = `Bearer ${token}`;
@@ -393,7 +393,7 @@ export const fetchPinnedRepos = async (username: string): Promise<string[]> => {
     const token = getGithubToken();
     const headers: Record<string, string> = {
       "Content-Type": "application/json",
-      "User-Agent": "portfoliomaker-clone",
+      "User-Agent": "devflex-clone",
     };
     if (token) {
       headers["Authorization"] = `Bearer ${token}`;
@@ -424,7 +424,7 @@ export const fetchFeaturedProjects = async (username: string): Promise<UserProje
     const token = getGithubToken();
     const headers: Record<string, string> = {
       Accept: "application/vnd.github.v3+json",
-      "User-Agent": "portfoliomaker-clone",
+      "User-Agent": "devflex-clone",
     };
     if (token) {
       headers["Authorization"] = `token ${token}`;

@@ -22,7 +22,7 @@ export const SupportModal = ({ user }: { user: Profile | null }) => {
   useEffect(() => {
     const checkShouldShowModal = () => {
       try {
-        const modalData = localStorage.getItem("portfoliomaker-support-modal");
+        const modalData = localStorage.getItem("devflex-support-modal");
         
         if (!modalData) {
           return true;
@@ -54,7 +54,7 @@ export const SupportModal = ({ user }: { user: Profile | null }) => {
         const modalData = {
           timestamp: Date.now(),
         };
-        localStorage.setItem("portfoliomaker-support-modal", JSON.stringify(modalData));
+        localStorage.setItem("devflex-support-modal", JSON.stringify(modalData));
       } catch (error) {
         console.warn("Error saving modal state:", error);
       }
